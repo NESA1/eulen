@@ -6,13 +6,13 @@
 ## Ansehen
 1. Dependencies installieren:
 
-   ```bash
-   npm install -g grunt-cli
-   npm install
+   ```
+   # npm install -g grunt-cli
+   $ npm install
    ```
 2. Miniserver starten:
 
-   ```bash
-   grunt serve
+   ```
+   $ grunt serve
    ```
 3. Profit.
