@@ -2,7 +2,7 @@
 (function(){
 	var isEnabled = true;
 
-	document.querySelector( '.reveal' ).addEventListener( 'mousedown', function( event ) {
+	document.querySelector( '.reveal .slides' ).addEventListener( 'mousedown', function( event ) {
 		var modifier = ( Reveal.getConfig().zoomKey ? Reveal.getConfig().zoomKey : 'alt' ) + 'Key';
 
 		var zoomPadding = 20;
@@ -273,6 +273,3 @@ var zoom = (function(){
 	}
 
 })();
-
-
-
